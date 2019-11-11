@@ -1,22 +1,22 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class OverWorldP2 here.
+ * Write a description of class ObamaMeetsWillyScene here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class OverWorldP2 extends World
+public class ObamaMeetsWillyScene extends World
 {
 
     /**
-     * Constructor for objects of class OverWorldP2.
+     * Constructor for objects of class ObamaMeetsWillyScene.
      * 
      */
-    public OverWorldP2()
+    public ObamaMeetsWillyScene()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1280,720,1,false); 
+        super(1280, 720, 1, false); 
         prepare();
     }
 
@@ -26,9 +26,7 @@ public class OverWorldP2 extends World
      */
     private void prepare()
     {
-        OverWorld_part2 overWorld_part2 = new OverWorld_part2();
-        addObject(overWorld_part2,640,360);
-        Sprite sprite = new Sprite();
-        addObject(sprite,640,600);
+        MeetsWillemGif meetsWillemGif = new MeetsWillemGif();
+        addObject(meetsWillemGif,640,360);
     }
 }

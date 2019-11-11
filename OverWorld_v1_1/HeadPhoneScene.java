@@ -1,22 +1,22 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class OverWorldP2 here.
+ * Write a description of class HeadPhoneScene here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class OverWorldP2 extends World
+public class HeadPhoneScene extends World
 {
 
     /**
-     * Constructor for objects of class OverWorldP2.
+     * Constructor for objects of class HeadPhoneScene.
      * 
      */
-    public OverWorldP2()
+    public HeadPhoneScene()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1280,720,1,false); 
+        super(1280, 720, 1);
         prepare();
     }
 
@@ -26,9 +26,7 @@ public class OverWorldP2 extends World
      */
     private void prepare()
     {
-        OverWorld_part2 overWorld_part2 = new OverWorld_part2();
-        addObject(overWorld_part2,640,360);
-        Sprite sprite = new Sprite();
-        addObject(sprite,640,600);
+        HeadPhonesGif headPhonesGif = new HeadPhonesGif();
+        addObject(headPhonesGif,640,360);
     }
 }
